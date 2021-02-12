@@ -1,0 +1,249 @@
+body{
+    background-color: #0f0f0f;
+    overflow: scroll;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+.cv-btn {
+  font-family: Arial;
+  color: #ffe806;
+  background: #0f0f0f;
+  padding: 10px 20px 10px 20px;
+  border: solid #ffe606 2px;
+  text-decoration: none;
+  font-family: Oxygen;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.cv-btn:hover {
+  font-family: Oxygen;
+  color: #0f0f0f;
+  background: #ffe606;
+  border: solid #0f0f0f 2px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.home{
+    width: 60%;
+    margin: 200px auto;
+    text-align: left;
+    color: white;
+}
+
+.home-head-text{
+
+  font-family: Oxygen;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 145.27%;
+
+  letter-spacing: 0.1em;
+
+  color: #FFE806;
+}
+
+.home-text{
+  padding: 10px;
+  font-family: Oxygen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 2;
+
+  color: #C4C4C4;
+}
+
+.profilePic{
+    width:30%;
+    height: 30%;
+    float: left;
+    margin-right: 150px;
+    
+}
+
+.navbar-nav > li{
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.navbar{
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.navtext{
+  font-family: 'Oxygen', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: #9A9A9A;
+}
+
+.btn-circle{ 
+  width: 50px; 
+  height: 50px; 
+  padding: 7px 10px; 
+  border-radius: 25px; 
+  font-size: 20px; 
+  text-align: center; 
+  color: #c4c4c4;
+  background: #0f0f0f;
+  border: solid #c4c4c4 2px;
+} 
+
+.project{
+  width: 80%;
+    margin: 100px auto;
+    text-align: left;
+    color: white;
+}
+
+.project-img{
+  border-radius: 25px;
+  width: 500px;
+  height: 342px;
+  float: left;
+  margin-right: 150px;
+}
+
+.project-title{
+
+  font-family: Oxygen;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 145.27%;
+  letter-spacing: 0.26em;
+  color: #FFE806;
+}
+
+.project-number{
+  font-family: Oxygen;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 145.27%;
+  color: #9A9A9A;
+}
+#tags {
+    border-radius: 10%;
+    background: #393939;
+    display: inline-block;
+    padding: 0.5%;
+    padding-right: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+  }
+
+  .center {
+    margin: 0 auto;
+    padding: 100px auto;
+    text-align: center;
+  }
+
+
+
+
+  .progress-title {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #9A9A9A;
+    margin: 0 0 20px
+}
+
+.progress {
+    height: 2px;
+    background: #333;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 30px;
+    overflow: visible
+}
+
+.progress .progress-bar {
+    position: relative;
+    -webkit-animation: animate-positive 2s;
+    animation: animate-positive 2s
+}
+
+.progress .progress-value {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    position: absolute;
+    top: -30px;
+    right: -25px
+}
+
+.progress .progress-bar:after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    /* background: #fff; */
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    right: -5px;
+    z-index: 1;
+    transform: rotate(35deg)
+}
+
+
+
+
+
+.contactme{
+  margin: 0 auto;
+  padding: 100px auto;
+  text-align: center;
+}
+
+#footer{
+  padding:5%;
+  text-align: center;
+  font-size: 1.25rem;
+  font-family: "Oxygen";
+  color:#9A9A9A;
+}
+
+.footer-link{
+  color: #FFFFFF;
+}
+
+.heading-text{
+  text-align: center;
+  padding-top: 80px;
+  font-family: Oxygen;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 145.27%;
+  /* identical to box height, or 29px */
+
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.experience{
+  text-align: center;
+  padding:5%;
+  color: #FFFFFF;
+}
