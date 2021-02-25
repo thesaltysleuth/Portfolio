@@ -71,7 +71,7 @@ body{
   font-family: Oxygen;
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 2;
 
   color: #C4C4C4;
@@ -179,6 +179,7 @@ body{
     padding-right: 1%;
     margin-top: 1%;
     margin-bottom: 1%;
+    margin-left: 5px;
     text-align: center;
   }
 
